@@ -13,7 +13,7 @@ const Hero = () => {
           <svg className="absolute h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-                <path d="M0 .5H32M.5 0V32" fill="none" stroke="rgb(226 232 240 / 0.3)" />
+                <path d="M0.5H32M.5 0V32" fill="none" stroke="rgb(226 232 240 / 0.3)" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#grid)" />
@@ -35,18 +35,21 @@ const Hero = () => {
             {/* 闪光标记 */}
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 mb-6">
               <SparklesIcon className="w-4 h-4 mr-1 text-blue-600" />
-              AI新体验
+              Juii‘s Fantasy World
             </span>
             
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              将
+              欢迎来到
               <span className="relative">
                 <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
-                  世界知识
+                  九乙
+                </span>
+                的
+                <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
+                  Fantasy World
                 </span>
                 <span className="absolute -inset-1 bg-blue-100/40 blur-md" />
               </span>
-              装进口袋
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
               基于中文模型优化的AI对话助手，为中文用户提供极致的对话体验。智能、高效、便捷，随时随地获取知识、解答疑惑。
@@ -92,6 +95,8 @@ const Hero = () => {
               <div className="absolute -inset-x-2 -top-16 -bottom-16 flex justify-center">
                 <div className="w-[800px] h-[600px] bg-gradient-to-r from-blue-400/20 via-cyan-400/20 to-purple-400/20 blur-3xl" />
               </div>
+              
+
               
               <div className="relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-gray-900/5">
                 {/* 顶部状态栏 */}
