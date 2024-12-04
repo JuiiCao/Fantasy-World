@@ -14,52 +14,52 @@ import {
 
 const features = [
   {
-    name: "中文优化对话体验",
-    description: "基于中文大语言模型深度优化，完美理解中文语境和表达方式，对话更自然流畅。",
+    name: "魔法与奇迹的领域",
+    description: "欢迎来到一个魔法无处不在的世界，在这里，巫师挥动魔杖就能召唤风暴，女巫的药剂能够治愈一切疾病。我们的幻想世界充满了奇迹，每一次施法都是对未知的探索。",
     icon: ChatBubbleLeftRightIcon,
     color: "from-blue-500 to-cyan-500",
   },
   {
-    name: "智能交互界面",
-    description: "精心设计的交互体验，简洁直观的操作方式，让AI对话像聊天一样轻松自如。",
+    name: "神话生物的家园",
+    description: "在这个幻想世界里，你将遇见传说中的生物。从智慧的精灵到勤劳的矮人，从威严的龙到神秘的凤凰，每一种生物都有其独特的文化和故事，等待你去发现。",
     icon: CursorArrowRaysIcon,
     color: "from-purple-500 to-pink-500",
   },
   {
-    name: "强大的知识引擎",
-    description: "海量知识库支持，从科技前沿到人文历史，助您探索世界的每个角落。",
+    name: "神秘的地貌探险",
+    description: "我们的世界拥有令人叹为观止的自然奇观。从被遗忘的古老森林到幽深的地下迷宫，每一步都充满了未知和惊喜。准备好你的地图和剑，因为每一次探险都是一次新的冒险。",
     icon: SparklesIcon,
     color: "from-amber-500 to-orange-500",
   },
   {
-    name: "隐私安全保障",
-    description: "采用先进的数据加密技术，严格的隐私保护机制，确保您的数据安全。",
-    icon: ShieldCheckIcon,
-    color: "from-green-500 to-emerald-500",
-  },
-  {
-    name: "高效网络处理",
-    description: "智能网络优化与重试机制，即使在不稳定的网络环境下也能保持流畅体验。",
-    icon: BoltIcon,
-    color: "from-blue-500 to-violet-500",
-  },
-  {
-    name: "多语言支持",
-    description: "支持中英日韩等多种语言互译，打破语言壁垒，连接世界对话。",
+    name: "多元文化的交融",
+    description: "幻想世界是多元文化的大熔炉，每个种族和文化都有其独特的传统和信仰。在这里，你可以体验到不同文化的庆典，学习古老的语言，甚至参与到史诗般的战争中。",
     icon: GlobeAltIcon,
     color: "from-teal-500 to-cyan-500",
   },
   {
-    name: "AI创作助手",
-    description: "提供写作、绘画、代码等多领域创作辅助，激发您的创意灵感。",
-    icon: DocumentTextIcon,
-    color: "from-red-500 to-rose-500",
+    name: "史诗故事的传承",
+    description: "每个角落都充满了传奇故事，英雄的传说在这里代代相传。加入我们，成为这些故事的一部分，或者创造你自己的传奇。",
+    icon: BoltIcon,
+    color: "from-blue-500 to-violet-500",
   },
   {
-    name: "场景化定制",
-    description: "根据不同使用场景优化体验，适配学习、工作、娱乐等多种需求。",
+    name: "魔法物品的寻觅",
+    description: "幻想世界中隐藏着无数的魔法物品，每一件都拥有改变世界的力量。寻找传说中的圣剑，或者探索能够赋予你力量的神秘护符。",
+    icon: ShieldCheckIcon,
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    name: "冒险与荣耀的召唤",
+    description: "勇敢的冒险者，我们的世界需要你的勇气和智慧。从寻找失落的宝藏到对抗邪恶的黑暗势力，每一次冒险都是对荣耀的追求。",
     icon: UserGroupIcon,
     color: "from-fuchsia-500 to-pink-500",
+  },
+  {
+    name: "信仰与神祇的指引",
+    description: "在幻想世界中，神祇与信仰是生活的重要组成部分。加入一个宗教团体，或者寻找你的神祇，让信仰成为你冒险路上的指引。",
+    icon: DocumentTextIcon,
+    color: "from-red-500 to-rose-500",
   },
 ];
 

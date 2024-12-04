@@ -5,31 +5,32 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "口袋AI - 智能对话助手 | 基于中文模型优化的AI应用",
-  description: "口袋AI是一款基于中文大语言模型优化的智能对话助手，为中文用户提供极致的AI对话体验。支持智能问答、知识探索、创意写作等多种功能，随时随地解答您的疑惑。",
-  keywords: "口袋AI, AI助手, 智能对话, 中文AI, ChatGPT替代品, AI应用, 人工智能, 智能问答, AI对话",
-  authors: [{ name: "云中江树" }],
-  creator: "云中江树",
-  publisher: "LangGPT社区",
+  title: "九乙的Fantasy World - 充满魅力的幻想世界",
+  description: "欢迎来到九乙的Fantasy World，一个充满魔法、神话生物、异域地貌、多元文化、史诗故事、魔法物品、冒险和宗教信仰的幻想世界。",
+  keywords: "九乙的Fantasy World, 魔法, 神话生物, 异域地貌, 多元文化, 史诗故事, 魔法物品, 冒险, 宗教信仰",
+  authors: [{ name: "九乙" }],
+  creator: "九乙",
+  publisher: "Fantasy World",
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    url: "https://pocketai.com",
-    siteName: "口袋AI",
-    title: "口袋AI - 您的智能对话伙伴",
-    description: "随时随地，智能对话，尽在口袋",
+    url: "https://fantasyworld.com",
+    siteName: "九乙的Fantasy World",
+    title: "九乙的Fantasy World - 充满魅力的幻想世界",
+    description: "欢迎来到九乙的Fantasy World，一个充满魔法、神话生物、异域地貌、多元文化、史诗故事、魔法物品、冒险和宗教信仰的幻想世界。",
     images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "口袋AI - 智能对话助手",
-    description: "基于中文模型优化的AI对话助手，为中文用户提供极致的对话体验。",
+    title: "九乙的Fantasy World - 充满魅力的幻想世界",
+    description: "欢迎来到九乙的Fantasy World，一个充满魔法、神话生物、异域地貌、多元文化、史诗故事、魔法物品、冒险和宗教信仰的幻想世界。",
     images: ["/twitter-image.png"],
   },
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
+
   },
   robots: {
     index: true,
